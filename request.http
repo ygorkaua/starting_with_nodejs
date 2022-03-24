@@ -1,0 +1,27 @@
+POST http://localhost:4002/product
+Content-Type: application/json
+
+{
+    "name": "Produto 123",
+    "qty": 10,
+    "price": 100
+}
+
+###
+
+GET  http://localhost:4002/product/15
+
+###
+
+PUT  http://localhost:4002/product/15
+Content-Type: application/json
+
+{
+    "name": "Produto 1",
+    "qty": 10,
+    "price": 100
+}
+
+###
+
+DELETE http://localhost:4002/product/15
